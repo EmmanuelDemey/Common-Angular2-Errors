@@ -1,0 +1,10 @@
+# Common Angular2 Errors
+
+.Angular2 Errors
+|===
+|Error |Signification 
+
+|Template parse errors: The pipe 'myPipe' could not be found
+|If you use a pipe in a template, you should define this one as a dependency for the component, thanks to the pipes property of the @Component decorator.
+
+|===
