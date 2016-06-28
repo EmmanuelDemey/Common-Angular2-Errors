@@ -7,4 +7,7 @@
 |Template parse errors: The pipe 'myPipe' could not be found
 |If you use a pipe in a template, you should define this one as a dependency for the component, thanks to the pipes property of the @Component decorator.
 
+|Can't bind to 'routerLink' since it isn't a known native property
+|If you use a directive/component in a template, you should define this one as a dependency for the component, thanks to the directives property of the @Component decorator.
+
 |===
