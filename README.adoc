@@ -10,4 +10,7 @@
 |Can't bind to 'routerLink' since it isn't a known native property
 |If you use a directive/component in a template, you should define this one as a dependency for the component, thanks to the directives property of the @Component decorator.
 
+|Uncaught SyntaxError: Unexpected token <
+|You possibly imported a file with its `.ts` extension, leading to it not being loaded during runtime and being replaced by your `index.html`, causing the syntax error.
+
 |===
